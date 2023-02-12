@@ -2,7 +2,7 @@
 
 本專案以練習路由、handlebars 為主要目的，並提供推薦餐廳的清單。  
 點擊餐廳內容框，會跳出店家的進一步介紹，並有附上搜尋功能 (如下連結圖示)。  
-![簡圖](readme_pics/example_1.jpg)  
+![簡圖](readme_pics/example1.jpg)  
 敬請自由使用。
 
 ## 如何才能使用
