@@ -39,6 +39,12 @@ const shopSchema = new Schema({
   description: {
     type: String,
   },
+  userId: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+    index: true, // 把這個 key/value pair 設定成這個資料表的 index，增加搜尋效率
+    required: true,
+  },
 })
 
 module.exports = mongoose.model('Shop', shopSchema)
